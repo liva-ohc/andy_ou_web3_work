@@ -1,0 +1,76 @@
+{"level":"info","ts":1752130562.3293417,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752130562.3525028,"caller":"blog-system/main.go:109","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752130585.8948388,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752130585.901074,"caller":"blog-system/main.go:109","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752133179.5813007,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752133179.5872238,"caller":"blog-system/main.go:109","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752332441.3231664,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752332441.3406599,"caller":"blog-system/main.go:109","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752335588.046907,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752335588.0520928,"caller":"blog-system/main.go:109","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752336013.8956652,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752336013.9005637,"caller":"blog-system/main.go:113","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752336013.900605,"caller":"blog-system/main.go:45","msg":"Start to requests on http address: :9090"}
+{"level":"info","ts":1752422722.8583555,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752422722.86806,"caller":"db/database.go:84","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752422722.8685641,"caller":"blog-system/main.go:33","msg":"Start to requests on http address: :9090"}
+{"level":"info","ts":1752423067.8645449,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752423067.869248,"caller":"db/database.go:84","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752423067.869248,"caller":"blog-system/main.go:33","msg":"Start to requests on http address: :9090"}
+{"level":"info","ts":1752423150.3393192,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752423150.3467488,"caller":"db/database.go:84","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752423150.3467488,"caller":"blog-system/main.go:33","msg":"Start to requests on http address: :9090"}
+{"level":"info","ts":1752423303.0947292,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752423303.100271,"caller":"db/database.go:84","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752423303.100271,"caller":"blog-system/main.go:33","msg":"Start to requests on http address: :9090"}
+{"level":"error","ts":1752423355.0445151,"caller":"controller/UserController.go:84","msg":"Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+{"level":"info","ts":1752423402.0134428,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752423402.019397,"caller":"db/database.go:84","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752423402.019908,"caller":"blog-system/main.go:33","msg":"Start to requests on http address: :9090"}
+{"level":"error","ts":1752423415.142679,"caller":"controller/UserController.go:87","msg":"Error 1054 (42S22): Unknown column 'created_at' in 'field list'"}
+{"level":"error","ts":1752423478.100084,"caller":"controller/UserController.go:87","msg":"Error 1054 (42S22): Unknown column 'deleted_at' in 'field list'"}
+{"level":"info","ts":1752423582.3478353,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752423582.354244,"caller":"db/database.go:84","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752423582.354244,"caller":"blog-system/main.go:33","msg":"Start to requests on http address: :9090"}
+{"level":"info","ts":1752423623.8640957,"caller":"controller/UserController.go:52","msg":"用户登录{userID 18 3  <nil>}"}
+{"level":"error","ts":1752423671.4022973,"caller":"controller/PostController.go:44","msg":"create post error:%v&{0xc000156210 Error 1054 (42S22): Unknown column 'created_at' in 'field list' 0 0xc000071500 0}"}
+{"level":"error","ts":1752423679.9516346,"caller":"controller/PostController.go:16","msg":"get all posts error:%v&{0xc000156210 Error 1054 (42S22): Unknown column 'posts.deleted_at' in 'where clause' 0 0xc0001b6e00 0}"}
+{"level":"error","ts":1752423947.495786,"caller":"controller/PostController.go:16","msg":"get all posts error:%v&{0xc000156210 Error 1054 (42S22): Unknown column 'posts.deleted_at' in 'where clause' 0 0xc000071c00 0}"}
+{"level":"info","ts":1752423957.8438182,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752423957.8527281,"caller":"db/database.go:84","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752423957.8527281,"caller":"blog-system/main.go:33","msg":"Start to requests on http address: :9090"}
+{"level":"info","ts":1752424028.015936,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752424028.023243,"caller":"db/database.go:84","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752424028.023243,"caller":"blog-system/main.go:33","msg":"Start to requests on http address: :9090"}
+{"level":"info","ts":1752424072.796135,"caller":"controller/UserController.go:52","msg":"用户登录{userID 18 3  <nil>}"}
+{"level":"info","ts":1752424078.682097,"caller":"controller/UserController.go:52","msg":"用户登录{userID 18 3  <nil>}"}
+{"level":"error","ts":1752424126.6486394,"caller":"controller/PostController.go:39","msg":"create post error:%v0x17b2680"}
+{"level":"error","ts":1752424157.5741801,"caller":"controller/PostController.go:39","msg":"create post error:%v0x17b2680"}
+{"level":"error","ts":1752424219.8084073,"caller":"controller/PostController.go:39","msg":"create post error:%v0x17b2680"}
+{"level":"info","ts":1752424259.8785954,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752424259.8839056,"caller":"db/database.go:84","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752424259.8839056,"caller":"blog-system/main.go:33","msg":"Start to requests on http address: :9090"}
+{"level":"info","ts":1752424268.938176,"caller":"controller/UserController.go:52","msg":"用户登录{userID 18 3  <nil>}"}
+{"level":"error","ts":1752424375.4665453,"caller":"controller/PostController.go:44","msg":"create post error:%vError 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`gotest`.`posts`, CONSTRAINT `fk_users_posts` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))"}
+{"level":"info","ts":1752424411.3539588,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752424411.360404,"caller":"db/database.go:84","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752424411.36095,"caller":"blog-system/main.go:33","msg":"Start to requests on http address: :9090"}
+{"level":"info","ts":1752424417.4356475,"caller":"controller/UserController.go:52","msg":"用户登录{userID 18 3  <nil>}"}
+{"level":"error","ts":1752424428.8559074,"caller":"controller/PostController.go:44","msg":"create post error:%vError 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`gotest`.`posts`, CONSTRAINT `fk_users_posts` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`))"}
+{"level":"info","ts":1752424511.7393568,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752424511.7468054,"caller":"db/database.go:84","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752424511.7468054,"caller":"blog-system/main.go:33","msg":"Start to requests on http address: :9090"}
+{"level":"info","ts":1752424534.1359215,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752424534.1419377,"caller":"db/database.go:84","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752424534.1419377,"caller":"blog-system/main.go:33","msg":"Start to requests on http address: :9090"}
+{"level":"info","ts":1752424537.9986925,"caller":"controller/UserController.go:52","msg":"用户登录{userID 18 3  <nil>}"}
+{"level":"info","ts":1752424660.4639282,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752424660.4700105,"caller":"db/database.go:84","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752424660.4700615,"caller":"blog-system/main.go:33","msg":"Start to requests on http address: :9090"}
+{"level":"error","ts":1752424781.9508348,"caller":"controller/PostController.go:78","msg":"update post error:%vError 1292 (22007): Incorrect datetime value: '0000-00-00' for column 'created_at' at row 1"}
+{"level":"error","ts":1752424883.357967,"caller":"controller/PostController.go:78","msg":"update post error:%vError 1292 (22007): Incorrect datetime value: '0000-00-00' for column 'created_at' at row 1"}
+{"level":"info","ts":1752425055.4278307,"caller":"config/config.go:109","msg":"日志初始化成功","level":"info","file":"logs/app.log"}
+{"level":"info","ts":1752425055.433434,"caller":"db/database.go:84","msg":"Connected to database: goTest"}
+{"level":"info","ts":1752425055.4339538,"caller":"blog-system/main.go:33","msg":"Start to requests on http address: :9090"}
+{"level":"error","ts":1752425122.6853943,"caller":"controller/PostController.go:110","msg":"delete post error:%vError 1264 (22003): Out of range value for column 'deleted_at' at row 1"}
+{"level":"error","ts":1752425167.3485816,"caller":"controller/PostController.go:110","msg":"delete post error:%vError 1265 (01000): Data truncated for column 'deleted_at' at row 1"}

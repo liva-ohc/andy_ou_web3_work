@@ -1,0 +1,127 @@
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# 标准 Go 忽略规则
+# ------------------------------
+# 编译生成的可执行文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试二进制文件
+*.test
+
+# 输出目录
+bin/
+dist/
+pkg/
+
+# Go 工作区文件 (Go 1.18+)
+go.work
+go.work.sum
+
+# Go 覆盖率文件
+coverage.txt
+profile.out
+*.cover
+
+
+# 依赖管理
+# ------------------------------
+# Go 模块 - 但保留 go.mod 和 go.sum!
+# vendor/  # 取消注释如果你不使用 vendor 目录
+
+
+# 编辑器/IDE 文件
+# ------------------------------
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# GoLand
+.idea/
+*.iml
+*.iws
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Sublime Text
+*.sublime-*
+*.sublime-project
+*.sublime-workspace
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+
+# 操作系统文件
+# ------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.fuse_hidden*
+
+
+# 项目特定文件
+# ------------------------------
+# 配置文件（创建示例但忽略实际配置）
+config.example.yaml
+config.example.toml
+config.example.json
+config.*.yaml
+config.*.toml
+config.*.json
+
+# 环境文件
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+temp/
+tmp/
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 构建产物
+build/
+out/
+release/
+
+# 文档生成
+docs/_build/
+site/

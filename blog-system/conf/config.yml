@@ -5,7 +5,11 @@ url: http://127.0.0.1:9090   # pingServer函数请求的API服务器的ip:port
 max_ping_count: 10           # pingServer函数尝试的次数
 
 db:
-  name: restful
+  name: goTest
   addr: 127.0.0.1:3306
   username: root
-  password: root
+  password: 123456
+
+log:
+  level: "info"  # 支持 debug/info/warn/error
+  file: "logs/app.log"
